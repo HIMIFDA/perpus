@@ -1,0 +1,37 @@
+Kali aja ada yg butuh buat referensi / belajar
+
+Source Code Sistem Informasi Perpustakaan[Core] [Dasar]
+
+
+Fitur
+-Buku
+    *melihat daftar buku dan melihat stok apakah available atau tidak
+-anggota
+    *melihat list anggota dan melihat berapa peminjaman yang sedang ia lakukan
+-Peminjaman
+    *peminjaman(melakukan peminjaman, anggota hanya bisa meminjam 3      buku, apabila sudah 3, tidak bisa meminjam, dan hanya buku yang available yang bisa dipinjam.
+    *laporan(melihat laporan peminjaman yang masih aktif, melihat durasi(hari) peminjaman sampai hari ini, melihat denda apabila melewati batas hari peminjaman.
+    *histori peminjaman(laporan peminjaman yang sudah clear)
+-Pengaturan
+    *pengaturan buku(CRUD buku)
+    *pengaturan kategori buku(CRUD)
+    *pengaturan denda(pengaturan batasan hari peminjaman, besaran denda bila melewati hari yang telah di atur
+    *pengaturan rak buku(CRUD)
+    *pengaturan Anggota(CRUD)
+
+Kekurangan
+-Tidak ada cetak laporan(pdf)
+-Design/UI, tampilan cuman polos biasa(I'm backend developer, I'm stuck at design & frontend :D )
+-Masih banyak
+
+Buat database perpus, atau kalau mau yg lain bisa disesuaikan di koneksi database nya di /core/config.php
+Export perpus.sql ke database
+
+Login
+Username : admin
+Password : admin
+
+Ukuran file keseluruhan : 47 KB
+
+NOTE : karna ini cuman DASAR jadi fiturnya cuman ini aja, tapi DASAR ini juga udah cukup wokeh
+
